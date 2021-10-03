@@ -1,7 +1,5 @@
 "use strict";
 
-// DEMO
-
 require("dotenv").config();
 
 // connect to our databse depending POSTGRES-URI OR DATABASE_URL
@@ -28,7 +26,7 @@ let sequelizeOptions =
 let sequelize = new Sequelize(DATABASE_URL, sequelizeOptions);
 
 // Define our schemas/models
-const people = require("./people-demo.js");
+// const people = require("./people-demo.js");
 const food = require("./food.js");
 const clothes = require("./clothes.js");
 
