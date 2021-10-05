@@ -48,7 +48,7 @@ async function deleteFood (req, res) {
     let deletedFood = await Food.destroy({where: {id : id}})
     res.status(200).json(deletedFood)
   } catch (error) {
-    res.status(500).send(console.log('OMG HERES AN ERROR!!!!!@@@',error))
+    res.status(500).send(console.log('Error on delete: 500',error))
   }
 }
 
