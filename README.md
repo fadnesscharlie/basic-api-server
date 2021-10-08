@@ -79,14 +79,15 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [Heroku Live Server Link](https://basic-api-server-401n19.herokuapp.com/)  
 [GitHub Pull Request](https://github.com/fadnesscharlie/basic-express-server/pulls)
 
+### UML
+
+![UML](img/Server-UML.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
